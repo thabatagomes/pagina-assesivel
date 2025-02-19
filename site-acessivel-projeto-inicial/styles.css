@@ -18,7 +18,9 @@ header {
 section {
     padding-bottom: 5rem;
 }
-
+ .nav-img{
+    width: 10%;
+ }
 
 .nav-link {
     color: #CB6D43;
