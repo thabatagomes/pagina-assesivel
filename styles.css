@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #c4c1c4;
 }
 
 
@@ -23,7 +23,7 @@ section {
  }
 
 .nav-link {
-    color: #CB6D43;
+    color: #993725;
     font-weight: 600;
 }
 
@@ -80,8 +80,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/OCASO_SERTANEJO.jpg') top right no-repeat,
+        url('img/unnamed.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -104,17 +104,17 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #59817e83;
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/Araucárias_ao_.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -122,12 +122,12 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #dad1d1;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(204, 52, 52, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -140,5 +140,5 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #faf5f8;
 }
