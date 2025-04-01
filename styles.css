@@ -142,3 +142,10 @@ h2 {
 .form-control {
     background-color: #faf5f8;
 }
+
+.menu-acessibilidade{
+    position: 2rem;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
