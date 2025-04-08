@@ -3,6 +3,10 @@
 
 :root {
     --rosa-escuro: #b31a78;
+    --alto-contraste-fundo:#000000;
+    --alto-contraste-texto:#ffffff;
+    --alto-contraste-link:#ffd700;
+
 }
 
 body {
@@ -148,4 +152,40 @@ h2 {
     top: 2rem;
     right: 20px;
     z-index: 1000;
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+    
+}
+
+.alto-contrastebheaer,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
+}
+
+.alto-contrate #tropialia{
+    background: none;
+}
+
+.alto-contraste #galeria{
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .funndo-galeria{
+    background: none;
 }
